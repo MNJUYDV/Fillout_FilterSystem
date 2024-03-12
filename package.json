@@ -1,0 +1,12 @@
+{
+  "name": "fillout_filter_system",
+  "version": "1.0.0",
+  "description": "filters the response",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
