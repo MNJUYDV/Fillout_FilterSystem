@@ -76,8 +76,8 @@ app.get('/:formId/filteredResponses', async (req, res) => {
         responses: paginatedResponses,
         totalResponses: filteredResponses.length,
         pageCount: Math.ceil(filteredResponses.length / perPage),
-        currentPage: page,
-        perPage: perPage
+        currentPage: Number(page),
+        perPage: Number(perPage)
       });
     }
   } catch (error) {
